@@ -1,0 +1,33 @@
+.contianer {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading {
+  padding: 45px;
+  text-align: center;
+  background-color: aqua;
+  border: solid 2px red;
+  border-radius: 50px;
+  transition: transform 3s ease-in;
+  box-shadow: 
+            450px 0px green,
+            0px 130px yellow,
+            -450px 0px darkorchid,
+            0px -130px wheat,
+            450px 130px blue,
+            450px -130px saddlebrown,
+            -450px 130px teal,
+            -450px -130px orangered;
+}
+
+.heading:hover {
+  transform: rotate(3600deg);
+}
